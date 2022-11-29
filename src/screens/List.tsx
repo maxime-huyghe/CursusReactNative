@@ -1,5 +1,4 @@
-import { StatusBar } from "expo-status-bar"
-import { Text, View } from "react-native"
+import { View } from "react-native"
 import Table from "../components/Table"
 import { useCursusStore } from "../cursusStore"
 import { styles } from "../globalStyles"

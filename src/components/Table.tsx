@@ -17,8 +17,10 @@ const Table = ({ headers, data }: Props) => {
   return (
     <View>
       <View style={rowStyle} key="header">
-        {headers.map(header => (
-          <Text style={cellStyle}>{header}</Text>
+        {headers.map((header, i) => (
+          <Text style={cellStyle} key={i}>
+            {header}
+          </Text>
         ))}
       </View>
       {data.map((row, i) => (
