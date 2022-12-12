@@ -1,6 +1,6 @@
 import { View } from "react-native"
 import Table from "../components/Table"
-import { useCursusStore } from "../cursusStore"
+import { useCursusStore } from "../lib/cursusStore"
 import { styles } from "../globalStyles"
 
 const List = () => {

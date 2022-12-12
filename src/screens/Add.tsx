@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Button, StyleProp, TextInput, TextStyle, View } from "react-native"
-import { useCursusStore } from "../cursusStore"
+import { useCursusStore } from "../lib/cursusStore"
 import { styles } from "../globalStyles"
 
 const Add = () => {

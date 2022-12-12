@@ -9,7 +9,6 @@ type Props = NativeStackScreenProps<StackParamList, "Home">
 const Home = ({ navigation }: Props) => {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
       <Text style={{ textAlign: "center" }}>
         This is a React Native version of the Cursus app ! Click on a button to
         navigate.
